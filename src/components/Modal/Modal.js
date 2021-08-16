@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styles from './Modal.module.css';
 import { createPortal } from 'react-dom';
 
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.querySelector('#root');
 
 class Modal extends Component {
   state = {};
